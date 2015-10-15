@@ -1,4 +1,4 @@
-FROM centos:centos7
+FROM index.alauda.cn/library/centos
 MAINTAINER markthink dxwsker@qq.com
 
 RUN yum update; yum clean all
