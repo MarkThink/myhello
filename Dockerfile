@@ -1,4 +1,4 @@
-FROM index.alauda.cn/alauda/centos
+FROM centos:latest
 MAINTAINER markthink dxwsker@qq.com
 
 RUN yum update && yum install -y nodejs
